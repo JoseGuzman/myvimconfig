@@ -21,7 +21,7 @@ syn keyword nrnObject Random
 syn keyword nrnObject PythonObject 
 
 syn keyword nrnType new objref objectvar 
-syn keyword nrnType strdef public local    
+syn keyword nrnType strdef public local external
 
 syn keyword nrnFunction print sprint xopen 
 
