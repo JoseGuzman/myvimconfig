@@ -1,4 +1,7 @@
-#!/usr/bin/bash
+#!/bin/bash
 # Plugins: Clean, install, and update
+
+cp -v vimrc $HOME/.vimrc
+cp -vr ./syntax $HOME/.vim
 
 vim +PlugClean +qall && vim +PlugInstall +qall && vim +PlugUpdate +qall

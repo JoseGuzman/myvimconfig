@@ -1,6 +1,5 @@
 " Vim syntax file
 " Language: NMODL (mod)
-" Last Change: Tue Oct 22 19:36:30 CEST 2013
 " Author: Jose Guzman sjm.guzman@gmail.com
 
 if exists("b:current_syntax")

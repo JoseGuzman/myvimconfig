@@ -1,6 +1,5 @@
 " Vim syntax file
 " Language: NEURON (hoc, ses)
-" Last change: Thu Sep 22 23:32:16 CEST 2016
 " Author: Jose Guzman sjm.guzman@gmail.com
 " see http://vim.wikia.com/wiki/Creating_your_own_syntax_files:
 
