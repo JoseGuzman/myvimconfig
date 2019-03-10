@@ -9,4 +9,4 @@ repository:
 After that, you can copy vimrc to your home directory and *clean, install
 and update* plugins with:
 
-    install
+    ./install

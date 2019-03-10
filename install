@@ -1,7 +1,11 @@
 #!/bin/bash
+# This scripts copies vimrc to %HOME/.vimrc and the
+# syntax directory to $HOME/.vim/
 # Plugins: Clean, install, and update
 
+echo "Copy vimrc to your home directory"
 cp -v vimrc $HOME/.vimrc
+echo "Copy syntax files to your home directory"
 cp -vr ./syntax $HOME/.vim
 
 vim +PlugClean +qall && vim +PlugInstall +qall && vim +PlugUpdate +qall
