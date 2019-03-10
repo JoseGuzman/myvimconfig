@@ -66,8 +66,8 @@ autocmd BufReadPost *
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Custom filetype extensions
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" prb for klusta 
-au BufNewFile,BufRead *.prb set syntax=python 
+" proble file (prb) and paramater file (prm) for klusta 
+au BufNewFile,BufRead *.prb *.prm set syntax=python 
 " hoc and ses look nice with java
 au BufNewFile,BufRead *.hoc, *.ses set syntax=java
 " custom for NMODL
